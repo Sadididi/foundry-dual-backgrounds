@@ -1,0 +1,12 @@
+{
+  "name": "dual-backgrounds",
+  "title": "Dual Backgrounds for 5e Characters",
+  "description": "Allows 5e characters to have two backgrounds instead of one.",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "minimumCoreVersion": "11",
+  "compatibleCoreVersion": "11",
+  "scripts": ["scripts/dual-backgrounds.js"],
+  "manifest": "https://Sadididi.github.com/foundry-dual-backgrounds/module.json",
+  "download": "https://github.com/Sadididi/foundry-dual-backgrounds/releases/download/v1.0.0/dual-backgrounds.zip"
+}
