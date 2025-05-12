@@ -1,27 +1,14 @@
 {
   "name": "foundry-dual-backgrounds",
-  "title": "Dual Backgrounds for 5e Characters",
-  "description": "Allows 5e characters to have more than one background, each with their own features and abilities.",
+  "title": "Dual Backgrounds for 5e",
+  "description": "Allows D&D5e characters to have multiple mechanically functional backgrounds (up to 10), while maintaining compatibility with TidySheet 5e.",
   "version": "1.0.0",
   "author": "Sadididi",
   "minimumCoreVersion": "11",
   "compatibleCoreVersion": "11",
+  "system": "dnd5e",
   "scripts": ["scripts/dual-backgrounds.js"],
+  "url": "https://github.com/Sadididi/foundry-dual-backgrounds",
   "manifest": "https://sadididi.github.io/foundry-dual-backgrounds/module.json",
-  "download": "https://github.com/Sadididi/foundry-dual-backgrounds/releases/download/v1.0.0/foundry-dual-backgrounds.zip",
-  "settings": [
-    {
-      "name": "maxBackgrounds",
-      "hint": "The maximum number of backgrounds a character can have. Set to a higher value to allow more backgrounds.",
-      "type": "Number",
-      "default": 2,
-      "scope": "world",
-      "config": true,
-      "range": {
-        "min": 1,
-        "max": 10,
-        "step": 1
-      }
-    }
-  ]
+  "download": "https://github.com/Sadididi/foundry-dual-backgrounds/releases/download/v1.0.0/foundry-dual-backgrounds.zip"
 }
