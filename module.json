@@ -7,8 +7,30 @@
   "minimumCoreVersion": "11",
   "compatibleCoreVersion": "11",
   "system": "dnd5e",
-  "scripts": ["scripts/dual-backgrounds.js"],
+  "scripts": [
+    "scripts/dual-backgrounds.js"
+  ],
+  "styles": [],
   "url": "https://github.com/Sadididi/foundry-dual-backgrounds",
   "manifest": "https://sadididi.github.io/foundry-dual-backgrounds/module.json",
-  "download": "https://github.com/Sadididi/foundry-dual-backgrounds/releases/download/v1.0.0/foundry-dual-backgrounds.zip"
+  "download": "https://github.com/Sadididi/foundry-dual-backgrounds/releases/download/v1.0.0/foundry-dual-backgrounds.zip",
+  "dependencies": [],
+  "languages": [
+    "en"
+  ],
+  "settings": [
+    {
+      "name": "maxBackgrounds",
+      "hint": "Set the maximum number of backgrounds a character can have.",
+      "scope": "world",
+      "config": true,
+      "type": Number,
+      "default": 2,
+      "range": {
+        "min": 1,
+        "max": 10,
+        "step": 1
+      }
+    }
+  ]
 }
